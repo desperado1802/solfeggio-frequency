@@ -5,22 +5,15 @@ export default function Header() {
     <div className="headerContainer">
       <h1>The Solfeggio Frequencies</h1>
       <p>
-        Solfeggio frequencies refer to a set of tones that have been used for
-        thousands of years to promote various aspects of physical and mental
-        health. These tones were used in ancient religious chants and
-        rediscovered in the 1970s by Dr. Joseph Puleo, who identified six
-        measurable frequencies that bring the body back into balance and aid in
-        healing. Solfeggio frequencies are believed to affect the conscious and
-        subconscious mind and stimulate healing and vitality. The Schumann
-        resonance is an electromagnetic resonance between the Earth's surface
-        and the ionosphere that resonates at a low frequency ranging between
-        7.86 Hz to 8 Hz, which has been dubbed the Earth's heartbeat. The
-        Solfeggio frequencies resonate in harmony with the Schumann resonance of
-        8 Hz, producing positive effects because of this synchronization.
-        Scientific tuning begins at 8Hz and works up the musical scale octave by
-        octave until the C note is vibrating at the 256 Hz frequency and the A
-        note is vibrating at 432 Hz. There are six different Solfeggio
-        frequencies, each with unique healing effects on the body and mind.
+        The Solfeggio frequencies are a set of tones or frequencies that are
+        believed to have healing properties for the mind, body, and spirit.
+        These frequencies are based on a musical scale that was used in ancient
+        Gregorian chants, and each frequency is thought to correspond to a
+        different aspect of the human experience, such as spiritual awakening,
+        emotional healing, or physical wellness. The use of Solfeggio
+        frequencies is often associated with alternative or complementary
+        medicine, and proponents believe that listening to or meditating with
+        these frequencies can promote balance and harmony in the body and mind.
       </p>
       <p>
         Listening to these frequencies can have positive effects on our overall

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Frequencies from "../components/Frequencies";
+import Footer from "../components/Footer";
 
 export default function Main() {
   return (
@@ -10,6 +11,7 @@ export default function Main() {
       {/* Frequencies */}
       <Frequencies />
       {/* Footer  */}
+      <Footer />
     </div>
   );
 }

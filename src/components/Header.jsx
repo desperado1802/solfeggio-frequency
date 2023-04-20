@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="headerContainer">
       <h1>The Solfeggio Frequencies</h1>
-      <p>
+      {/* <p>
         The Solfeggio frequencies are a set of tones or frequencies that are
         believed to have healing properties for the mind, body, and spirit.
         These frequencies are based on a musical scale that was used in ancient
@@ -14,7 +14,7 @@ export default function Header() {
         frequencies is often associated with alternative or complementary
         medicine, and proponents believe that listening to or meditating with
         these frequencies can promote balance and harmony in the body and mind.
-      </p>
+      </p> */}
       <p>
         Listening to these frequencies can have positive effects on our overall
         well-being, such as relaxation, stress reduction, and mood improvement.
@@ -22,6 +22,13 @@ export default function Header() {
         a more efficient and focused workday. Give it a try and see how it can
         positively impact your daily routine.
       </p>
+      <a
+        href="https://mindeasy.com/the-9-solfeggio-frequencies-and-their-benefits/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        For more info please click
+      </a>
     </div>
   );
 }

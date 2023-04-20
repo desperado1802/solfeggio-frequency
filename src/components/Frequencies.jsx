@@ -9,7 +9,12 @@ export default function Frequencies() {
         <div key={idx} className="frequenciesWrapper">
           <h3>{item.title}</h3>
           <p>{item.text}</p>
-          <ReactAudioPlayer className="audioPlayer" src={item.audio} controls />
+          <ReactAudioPlayer
+            className="audioPlayer"
+            src={item.audio}
+            loop
+            controls
+          />
         </div>
       ))}
     </div>

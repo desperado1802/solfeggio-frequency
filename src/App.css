@@ -9,6 +9,18 @@ body {
   box-sizing: border-box;
 }
 
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.3;
+}
+
 .App {
   margin: 0;
   padding: 10px;
@@ -21,7 +33,7 @@ body {
 }
 
 .headerContainer {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(6px);
   padding: 20px;
   border-radius: 10px;
@@ -71,7 +83,7 @@ body {
 
 .frequenciesWrapperFront,
 .frequenciesWrapperBack {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(6px);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
@@ -115,6 +127,7 @@ body {
 }
 .footerContentContainer {
   font-size: 14px;
+  color: rgb(237, 228, 228);
 }
 
 .pulsate {
